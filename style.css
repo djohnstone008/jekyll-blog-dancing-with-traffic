@@ -244,16 +244,17 @@ p a:hover {
 
 /* ------------ Header & Hamburger Menu -------------- */
 header {
-    padding: 1rem 5%;
+    /* padding: 1rem 5%; */
+    position: relative;
 }
 
 nav a {
-    padding: 0.25rem 0.5rem;
+    padding: 1rem 5%;
     display: inline-block;
     text-decoration: none;
 }
 nav a:hover {
-  color: var(--featured-text);
+  color:#045954; 
 }
 
 .logo {
@@ -265,27 +266,30 @@ nav a:hover {
 /* Dropdown styles */
 
 .dropdown { 
-  position: relative; 
+  /* position: relative;  */
   display: inline-block;
-  border: 1px solid orange;
+  /* border: 1px solid var(--dark-text); */
+  padding: 0.2rem;
+  padding-right: 0.7rem;
 }
 
+
 .dropdown-title {
-  padding: 0.25rem 0.5rem;
+  padding: 1rem 5%;
   display: inline-block;
 }
 
 .dropdown-content {
   position: absolute;
   top: 100%;
-  left: -1rem;
+  left: 0;
   padding: 0.5rem;
   display:none; 
   background-color: white;
   z-index: 2;
   text-align: left;
-  min-width: 10rem;
-  border: 1px solid mediumvioletred;
+  min-width: 100%;
+  border: 1px solid #067e78;
 }
 
 .dropdown:hover .dropdown-content{ 
@@ -294,7 +298,9 @@ nav a:hover {
 
 .dropdown-content a {
   display: block;
-  padding: 0.2rem;
+  padding: 0.4rem;
+  border: 1px solid #067e78;
+  background-color: #d4fdfb;
 }
 
 .hamburger-button {
