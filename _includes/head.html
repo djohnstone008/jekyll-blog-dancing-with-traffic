@@ -12,6 +12,7 @@
 <meta name="description" content="{{page.seo.description | default: site.data.site-settings.seo.description }}">
 <meta name="keywords" content="{{page.seo.keywords | default: site.data.site-settings.seo.keywords }}">
 
+<!-- Use this for when youre testing an unfinished page -->
 {% if page.seo.hide-from-google == true %}
     <meta name="robots" content="noindex, nofollow">
 {% else %}
