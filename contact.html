@@ -1,0 +1,54 @@
+---
+layout: default
+---
+    <!--------------- Header banner ------------------>
+<header class="bg-image text-light padded-1 grid">
+
+  <div class="col-12 text-center">
+    <h1 class="padded">
+      We'd love to hear from you.  
+    </h1>
+  </div>
+</header>
+
+<section class="padded">
+  {% include social-share.html %}
+</section>
+
+  
+<!-- Contact form -->
+<section class="grid padded bg-dark">
+  <div class="col-6 padded text-light">
+    <h2 class="editable">
+      Let's <span class="featured-text editable"> connect! </span>
+    </h2>
+    <p class="editable">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ipsa
+      accusamus veritatis esse sunt delectus tempore consequatur sint. Nam
+      minima sequi nobis voluptates fuga et id eaque enim dicta repudiandae.
+    </p>
+  </div>
+  <div class="col-6 padded">
+    <form>
+      <label for="_name"> Your Name </label>
+      <input type="text" name="_name" id="_name" placeholder="Name" />
+
+      <label for="_replyto"> Your Email </label>
+      <input
+        type="email"
+        name="_replyto"
+        id="_replyto"
+        placeholder="Email"
+      />
+
+      <label for="message"> What would you like to know? </label>
+      <textarea
+        name="message"
+        placeholder="Your question here..."
+        rows="4"
+      ></textarea>
+
+      <button type="submit" class="button">SUBMIT</button>
+    </form>
+  </div>
+</section>

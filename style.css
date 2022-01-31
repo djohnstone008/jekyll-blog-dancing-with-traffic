@@ -445,6 +445,26 @@ font-size: 0.8rem;
 opacity: 0.5
 }
 
+
+/* ------Form styles ------ */
+input,
+textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  /* Default border to prevent page from jumping when you click */
+  border: 2px solid transparent;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid #ffbe00;
+  outline: none;
+}
+
 /* Miscelaneous elements  */
 
 hr.short {
@@ -456,6 +476,13 @@ hr.short {
 hr.short.center {
   margin:auto;
   margin: 1rem auto;
+}
+
+.quote-icon {
+  font-size: 6rem;
+  display: inline-block;
+  color: rgb(120, 120, 125);
+  line-height: 1;
 }
 
 
