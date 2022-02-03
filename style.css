@@ -300,6 +300,7 @@ nav a:hover {
 
 .dropdown-content a {
   display: block;
+  margin-bottom: 0.5rem;
   border: 1px solid #067e78;
   background-color: #d4fdfb;
 }
